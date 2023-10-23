@@ -116,7 +116,7 @@ material and ideas.
 
 * **Handout:** 4/1
 
-* **Handin deadline:** 13/1
+* **Handin deadline:** 14/1
 
 ## Study café
 
