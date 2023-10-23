@@ -1,5 +1,6 @@
 # Syllabus and Material for High Performance Programming and Systems (HPPS)
 
+<img align="right" width=200 src="https://github.com/diku-dk/hpps-e2023-pub/assets/55833/92def2f9-a8cf-4719-a961-063ae6fb396e">
 Welcome to the course website for HPPS!  While assignment handin is
 still on Absalon, all material and information will be located here.
 You are not expected to treat this repository as anything more than a
