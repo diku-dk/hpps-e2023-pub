@@ -56,14 +56,14 @@ The textbooks are as follows:
 
 * **Exercises:** 15:00-17:00
 
-Exercises are split along six *hold*.  Due to space limitations, two *hold*
-share a single room:
+Exercises are split along four *hold*. Due to space limitations, two
+of the *hold* share a single room:
 
-* **Hold 1+2:** *10:00-12:00*, 1-0-04 (DIKU), *15:00-17:00*: 2.1.I.156 (NBB)
+* **Hold 1:** *10:00-12:00*, 1-0-04 (DIKU), *15:00-17:00*: 2.1.I.156 (NBB)
 
-* **Hold 3+4:** *10:00-12:00*, Auditorium Syd (NEXS), *15:00-17:00*: 4-0-32 (Biocenter).
+* **Hold 2:** *10:00-12:00*, Auditorium Syd (NEXS), *15:00-17:00*: NBB 2.2.I.158 (NBB)
 
-* **Hold 5+6:** *10:00-12:00*, 4-0-32 (Biocenter), *15:00-17:00*: NBB 2.2.I.158 (NBB)
+* **Hold 3+4:** *10:00-12:00*, 4-0-32 (Biocenter), *15:00-17:00*: 4-0-32 (Biocenter).
 
 (We are aware that these room allocations seem quite random, but it is
 almost impossible to change. Remarkably, the above will *lessen*
@@ -175,11 +175,11 @@ The teachers are
 
 The TAs are
 
-* Riasat Abbas
+* Riasat Abbas <riab@di.ku.dk>
 
 * Axel Højmark <axho@di.ku.dk>
 
-* Rasmus Pallisgaard
+* Rasmus Pallisgaard <rpa@di.ku.dk>
 
 * Jonatan Ruiz-Molsgaard <tnc197@alumni.ku.dk>
 
