@@ -75,8 +75,10 @@ confusion.)
 
 ## Assignments
 
-There are 5 assignment in total during the course with deadlines
-roughly every week.
+There are 6 assignment in total during the course with deadlines
+roughly every week. They overlap slightly to allow for more
+flexibility in your scheduling, but think of them as weekly
+assignment.
 
 The assignments will be graded with points from 0 to 4 and it is not
 possible to re-hand-in any of the assignments.
@@ -88,11 +90,17 @@ students. Each group must make their own solutions and cannot share
 implementations and report with other. You may however discuss
 material and ideas.
 
-### A1
+### A0
 
 * **Handout:** 23/11
 
 * **Handin deadline:** 3/12
+
+### A1
+
+* **Handout:** 30/11
+
+* **Handin deadline:** 10/12
 
 ### A2
 
@@ -104,7 +112,7 @@ material and ideas.
 
 * **Handout:** 14/12
 
-* **Handin deadline:** 21/12
+* **Handin deadline:** 24/12
 
 ### A4
 
