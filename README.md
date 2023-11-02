@@ -175,13 +175,13 @@ The teachers are
 
 The TAs are
 
-* Riasat Abbas <riab@di.ku.dk>
+* **Hold 1:** Riasat Abbas <riab@di.ku.dk>
 
-* Axel Højmark <axho@di.ku.dk>
+* **Hold 2:** Axel Højmark <axho@di.ku.dk>
 
-* Rasmus Pallisgaard <rpa@di.ku.dk>
+* **Hold 3:** Rasmus Pallisgaard <rpa@di.ku.dk>
 
-* Jonatan Ruiz-Molsgaard <tnc197@alumni.ku.dk>
+* **Hold 4:** Jonatan Ruiz-Molsgaard <tnc197@alumni.ku.dk>
 
 ## Exam format
 
