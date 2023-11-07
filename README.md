@@ -90,37 +90,37 @@ students. Each group must make their own solutions and cannot share
 implementations and report with other. You may however discuss
 material and ideas.
 
-### A0
+### A1
 
 * **Handout:** 23/11
 
 * **Handin deadline:** 3/12
 
-### A1
+### A2
 
 * **Handout:** 30/11
 
 * **Handin deadline:** 10/12
 
-### A2
+### A3
 
 * **Handout:** 7/12
 
 * **Handin deadline:** 17/12
 
-### A3
+### A4
 
 * **Handout:** 14/12
 
 * **Handin deadline:** 24/12
 
-### A4
+### A5
 
 * **Handout:** 21/12
 
 * **Handin deadline:** 7/1
 
-### A5
+### A6
 
 * **Handout:** 4/1
 
