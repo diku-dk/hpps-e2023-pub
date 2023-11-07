@@ -135,9 +135,9 @@ location.
 ## Exam qualification
 
 To qualify for the exam you are required to achieve at least 50% of
-the total number of points in the *first four* assignments (that is, 8
+the total number of points in the *first five* assignments (that is, 10
 points at minimum). You also need to get *at least* one point in each
-of the first four assignment.
+of the first five assignment.
 
 ## Exam date
 
