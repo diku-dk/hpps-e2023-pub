@@ -132,20 +132,6 @@ Every Friday in from 13:00-15:00 you can attend the assignment café to
 get help with the assignments. The cafés are at a yet-undisclosed
 location.
 
-## Exam qualification
-
-To qualify for the exam you are required to achieve at least 50% of
-the total number of points in the *first five* assignments (that is, 10
-points at minimum). You also need to get *at least* one point in each
-of the first five assignment.
-
-## Exam date
-
-The exam is a take-home exam held in the exam week (the exact dates
-are determined by the exam office). It has an estimated workload of 20
-hours. It will involve practical programming and performance analysis
-of programs.
-
 ## Languages
 
 All written material will be in **English**.
@@ -183,10 +169,26 @@ The TAs are
 
 * **Hold 4:** Jonatan Ruiz-Molsgaard <tnc197@alumni.ku.dk>
 
-## Exam format
+## Exam
+
+### Format
 
 The exam will be a take-home exam that will be very similar in form to
-the mandatory assignments.
+the mandatory assignments. See [examples of old exams
+here](old-exams/). It has an estimated workload of 20 hours. It will
+involve practical programming and performance analysis of programs.
+
+### Qualification
+
+To qualify for the exam you are required to achieve at least 50% of
+the total number of points in the *first five* assignments (that is, 10
+points at minimum). You also need to get *at least* one point in each
+of the first five assignment.
+
+### Date
+
+The exam will be held in the exam week (the exact dates are determined
+by the exam office).
 
 ## Course plan
 
