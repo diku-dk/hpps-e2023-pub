@@ -12,8 +12,8 @@ compiler flags, start by writing down a `Makefile` containing the
 following:
 
 ```
-CC=gcc
-CFLAGS=-std=c11 -Wall -Werror -Wextra -pedantic -g
+CC?=cc
+CFLAGS?=-std=c11 -Wall -Werror -Wextra -pedantic -g
 ```
 
 Then when you add a program `foo`, add a rule to `Makefile` as
