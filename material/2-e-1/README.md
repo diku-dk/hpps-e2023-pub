@@ -76,3 +76,45 @@ program.
   files to the *compiler* on the command line, or in your `Makefile`.
 
 * [Solution here](ref/part1).
+
+### Part 2: A very crude number reader
+
+The following function reads a single character from standard input
+(the console, unless redirected). If that character corresponds to a
+decimal digit, it returns an `int` of the corresponding numeric value.
+Otherwise it returns -1.
+
+```C
+int get_digit(void) {
+  int c = getchar();
+  if (isdigit(c)) {
+    return c - 48;
+  } else {
+    return -1;
+  }
+}
+```
+
+We will use this function to make `get_number()` return an integer
+read from standard input. Now go through the following steps. Remember
+to check after every step that everything still compiles.
+
+* Copy `get_digit` into `numlib.c` but *not* `numlib.h`. You will need
+  to add includes for the the `stdio.h` and `ctype.h` headers.
+
+* Now modify `get_number` such that it contains a loop that repeatedly
+  calls `get_digit()` and produces a number corresponding to the
+  digits read. The loop should terminate (and `get_number()` return)
+  when `get_digit()` returns -1.
+
+* Modify `numlib_test.c` such that it calls `get_number()` twice (and
+  prints both numbers, of course).
+
+Now ponder:
+
+* Can `numlib_test.c` directly use `get_digit()`? Why or why not? What
+  would you modify if you wanted this to be possible?
+
+* What happens when you run `echo "123 456" | ./numlib_test`?
+
+* What happens when you run `echo "123  456" | ./numlib_test`?
