@@ -32,6 +32,11 @@ see how this enables us to compile a library *once* and use it
 *multiple times*. For now, we will simply pass multiple `.c` files to
 the compiler.
 
+The [`ref`](ref/) directory contains our solutions. It's best to look
+at them only when you have tried yourself first, or are stuck. When
+you do look at them, make sure you understand why they work before
+moving on.
+
 ### Part 1: Setting up a working environment
 
 * Create an empty file `numlib.h` containing the following *prototype*:
