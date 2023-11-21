@@ -71,7 +71,7 @@ confusion.)
 
 ### Friday
 
-* **Assignment café** 13:00-15:00 (probably - location TBD).
+* **Assignment café** 13:00-15:00 (lille UP1, DIKU).
 
 ## Assignments
 
