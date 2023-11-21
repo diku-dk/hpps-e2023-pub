@@ -87,7 +87,6 @@ int read_uint_le(FILE *f, uint32_t *out) {
   b3 = fgetc(f);
 
   if (b1 == EOF || b2 == EOF || b3 == EOF) {
-    fprintf(stderr, "%d %d %d %d", b0, b1, b2, b3);
     return 1;
   }
 
