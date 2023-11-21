@@ -61,7 +61,6 @@ need only a small fraction of these commands for HPPS.
 
 ### Valgrind
 
-The `valgrind` tool unfortunately does not work on macOS, and we know
-of no fix or substitute.  Since this is not a *requirement*, merely a
-very useful tool, the most pragmatic workaround is to ensure that each
-group has at least one group member with a non-macOS system.
+The `valgrind` tool unfortunately does not work on macOS. Instead, you
+can use *address sanitizer*: pass `-fsanitize=address` to the C
+compiler.  This also works on Linux.
