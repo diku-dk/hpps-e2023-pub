@@ -70,7 +70,7 @@ $ ./hexabyte ints.bin
 
 ## Working on `numlib`
 
-Take the code developed in the Tuesday exercises, but delete the code
+Take the code developed in the morning exercises, but delete the code
 from `numlib.h` and `numlib.c` (and any test programs you may have
 written) - we start from scratch.
 
@@ -145,7 +145,7 @@ test program. Do *not* use `scanf()` or any other function in the
 
 #### Hints
 
-* The logic is very similar to the function developed in the Tuesday
+* The logic is very similar to the function developed in the morning
   exercise.
 
 * The loop has two stopping conditions: if the next character exists
