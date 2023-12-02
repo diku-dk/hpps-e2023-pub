@@ -34,9 +34,11 @@ is.
 
 <details>
 <summary>Open this to see the answer</summary>
+
 ```
 5 * 20 + 11 = 111
 ```
+
 </details>
 
 * Array size: 20 x 10
@@ -45,9 +47,11 @@ is.
 
 <details>
 <summary>Open this to see the answer</summary>
+
 ```
 5 * 10 + 11 = 61
 ```
+
 </details>
 
 * Array size: 2 x 3 x 4
@@ -56,9 +60,11 @@ is.
 
 <details>
 <summary>Open this to see the answer</summary>
+
 ```
 1 * (3*4) + 2 * 4 + 4 = 24
 ```
+
 </details>
 
 ### Inverse
