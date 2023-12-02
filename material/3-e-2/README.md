@@ -32,13 +32,34 @@ is.
 
   Element index: (5,11)
 
+<details>
+<summary>Open this to see the answer</summary>
+```
+5 * 20 + 11 = 111
+```
+</details>
+
 * Array size: 20 x 10
 
   Element index: (5,11)
 
+<details>
+<summary>Open this to see the answer</summary>
+```
+5 * 10 + 11 = 61
+```
+</details>
+
 * Array size: 2 x 3 x 4
 
   Element index: (1,2,3)
+
+<details>
+<summary>Open this to see the answer</summary>
+```
+1 * (3*4) + 2 * 4 + 4 = 24
+```
+</details>
 
 ### Inverse
 
@@ -49,6 +70,28 @@ whether the flat index is out-of-bounds.
 * Array size: 10 x 20
 
   Flat index: 111
+
+<details>
+<summary>Open this to see the answer</summary>
+
+Plugging the shape and flat index into the index function for 2D
+arrays, we get an equation.
+
+```
+i * 20 + j = 111
+0 <= i < 10
+0 <= j < 20
+```
+
+Which has a solution
+
+```
+i = 5
+j = 11
+```
+
+thus the multidimensional index is `(5,11)`.
+</details>
 
 * Array size: 2 x 3
 
