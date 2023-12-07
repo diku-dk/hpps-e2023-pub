@@ -1,7 +1,7 @@
 # Dynamic memory and data formats
 
 These exercises are intended to familiarise you with the programming
-techniques and tools you will need to solve A2.
+techniques and tools you will need to solve A3.
 
 Even if you do not finish the lab tasks during the lab hours, it may
 still be productive to finish the tasks before starting work on the
