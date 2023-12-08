@@ -129,8 +129,7 @@ material and ideas.
 ## Study café
 
 Every Friday in from 13:00-15:00 you can attend the assignment café to
-get help with the assignments. The cafés are at a yet-undisclosed
-location.
+get help with the assignments. The cafés are at Lille UP-1 at DIKU.
 
 ## Languages
 
