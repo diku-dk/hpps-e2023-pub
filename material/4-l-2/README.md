@@ -2,7 +2,13 @@
 
 ## Reading
 
-    BOH 1.7, 9.1-9.6
+* HPPS - Operating Systems
+
+The following are two chapters on the core OS concepts we will be examining. 
+They are part of a free textbook available online [here](https://pages.cs.wisc.edu/~remzi/OSTEP/). 
+
+* [Processes](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf)
+* [Virtual Memory](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)
 
 ## Videos
 

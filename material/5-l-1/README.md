@@ -2,7 +2,7 @@
 
 ## Reading
 
-    BOH 11
+* HPPS - Networking
 
 ## Videos
 A recording of the lecture from this year was recorded and is available below
@@ -10,7 +10,7 @@ A recording of the lecture from this year was recorded and is available below
  * https://youtu.be/0j74RAfnOBU 
 
 
-This is the equivelent networking lecture from last year. It is presented differently, covers slightly different topics, and 
+This is the equivalent networking lecture from last year. It is presented differently, covers slightly different topics, and 
 was actually the second lecture as last year we approached the topic from the lowest level first whilst we are going to go from 
 the highest level. Nevertheless, it is still a good resource if the remote lecture doesn't work / you can't make it.
 

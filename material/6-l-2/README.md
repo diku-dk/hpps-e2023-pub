@@ -6,4 +6,5 @@
 
 ## Reading
 
-    BOH 12.4 - 12.7
+* HPPS - Loop Dependency Analysis
+* HPPS - Loop Transformations
