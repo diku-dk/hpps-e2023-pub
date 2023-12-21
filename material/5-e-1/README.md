@@ -1,46 +1,30 @@
-These exercises are contained in two parts, a few theory questions and some programming tasks. The programming tasks should act a as a good basis for the networking coursework, whilst the theory may be more of an introduction to exam style questions.
+These exercises are contained in two parts, a few theory questions and some programming tasks. The programming tasks should act as a good basis for the networking coursework.
 
 ## Practical
 
-Within this folder you should find three Python files demonstrating some simple network communication.
-The first of these will run a client that will send a message across a network and wait for a response.
-It can be run using the command:
+Within this folder you should find three Python files demonstrating some simple network communication. The first of these will run a client that will send a message across a network and wait for a response. It can be run using the command:
    
    Python3 client.py
 
-If you do not run the server first. Your client will not work as it has nothing to connect to. 
-There are two options or running a server process. First is server_socket.py, which uses the socket 
-library to listen for inbound communications and then echo them back. It can be started with:
+If you do not run the server first. Your client will not work as it has nothing to connect to. There are two options for running a server process. First is server_socket.py, which uses the socket library to listen for inbound communications and then echo them back. It can be started with:
 
     Python3 server_socket.py ServerName
 
-Finally is server_socketserver.py. This is a more robust server implementation using the socketserver 
-library. This library builds upon the socket library to provide robust base implementations for servers
-and is the defacto library for implementing them in Python. If we were limited to using C we would
-have to stick with using base socket programming, but this can get tedious and is more prone to errors.
-To start server_socketserver.py we can type:
+Finally is server_socketserver.py. This is a more robust server implementation using the socketserver library. This library builds upon the socket library to provide a more robust base implementations for servers and is the defacto library for implementing them in Python. If we were limited to using C we would have to stick with using base socket programming, but this can get tedious and is more prone to errors. To start server_socketserver.py we can type:
 
     Python3 server_socketserver.py ServerName
 
-You can stop the server by hitting Ctrl+C. Note that here we give the server a name. This is not necessary
-for servers usually, but has been provided here as an example of how we can define certain characteristics
-of out server from command line arguments.
+You can stop the server by hitting Ctrl+C. Note that here we give the server a name. This is not necessary for servers usually, but has been provided here as an example of how we can define certain characteristics of out server from command line arguments.
 
-Your task at this exercise is to familiarise with Python, or brush up on your skills before A4 as 
-it is a Python based network programming task. Initially you should investigate server_socket.py. 
+Your task at this exercise is to familiarise with Python, or brush up on your skills before A4 as it is a Python based network programming task. Initially you should investigate server_socket.py. 
 
-    1) Start multiple clients each connecting to the same server_socket at the same time. You may need to 
-       add a delay to the message processing to be able to do this. What happens when a message is
-       received before the previous one is completed? What effect might this have on server performance? 
-       What effect would it have on client performance?
+    1) Start multiple clients each connecting to the same server_socket at the same time. You may need to add a delay to the message processing to be able to do this. What happens when a message is received before the previous one is completed? What effect might this have on server performance? What effect would it have on client performance?
        
 You should now investigate server_socketserver.py. 
 
-    2) Add delays in the same manner as before and connect multiple clients. What happens here? How would
-       This alter performance for the client and server compared to the server_socket?
+    2) Add delays in the same manner as before and connect multiple clients. What happens here? How would this alter performance for the client and server compared to the server_socket?
     
-Continue to investigate server_socketserver. Make sure to remove any delaying timers from the last exercise
-as they will just slow things down unnecessarily for these subsequent parts.
+Continue to investigate server_socketserver. Make sure to remove any delaying timers from the last exercise as they will just slow things down unnecessarily for these subsequent parts.
 
 ### Ping/pong
 Modify the client so that it takes user input from the command line as the messages to send. Modify the server so that if it receives a `ping` message, it replies with a `pong`. In all other cases the server returns `BAD REQUEST`.
@@ -56,43 +40,20 @@ When the server receives a `PUT` it saves the string to an internal variable and
 When the server receives a `GET` it returns the stores variable. All `GET`s should be blocking, until the server has received the first `PUT`. Thus, clients sending a `GET` before another client send a `PUT` should block and wait until the server receives the first `PUT` and responds to all waiting clients.
 
 ## Theory
-These exercises are completely optional, but could be a good guide for the sort of knowledge we 
-may expect in any future exams... 
 
 1) Why are standards important for protocols?
 
-2) Suppose Host A wants to send a large file to Host B. The path from Host A to Host B has 
-    three links, of rates R1=500 kbps, R2=2 Mbps, and R3=1 Mbps.
-        a) Assuming no other traffic in the network, what is the throughput for the file 
-            transfer?
-        b) Suppose the file is 4 million bytes. Dividing the file size by the throughput, 
-            roughly how long will it take to transfer the file to Host B?
+2) Suppose Host A wants to send a large file to Host B. The path from Host A to Host B has three links, of rates R1=500 kbps, R2=2 Mbps, and R3=1 Mbps.
+        a) Assuming no other traffic in the network, what is the throughput for the file transfer?
+        b) Suppose the file is 4 million bytes. Dividing the file size by the throughput, roughly how long will it take to transfer the file to Host B?
         ) c. Repeat (a) and (b), but now with R reduced to 100 kbps.
 
-3) An application using UDP to send messages typically only needs one socket, whereas a 
-    similar application using TCP would need needed two sockets. Why? If the TCP server were 
-    to support n simultaneous connections, each to a different host, how many sockets would 
-    the TCP based application need?
+3) An application using UDP to send messages typically only needs one socket, whereas a similar application using TCP would need needed two sockets. Why? If the TCP server were to support n simultaneous connections, each to a different host, how many sockets would the TCP based application need?
     
-4) In modern packet-switched networks, including the Internet, the source host segments
-    long, application-layer messages (for example, an image or a music file) into smaller packets
-    and sends the packets into the network. The receiver then reassembles the packets back into
-    the original message. We refer to this process as message segmentation. Consider a
-    message that is bits 10⁶ long that is to be sent from source to destination. Suppose there
-    are 3 links, and each is 2 Mbps. Ignore propagation, queuing, and processing delays.
-     a) Consider sending the message from source to destination without message
-        segmentation. How long does it take to move the message from the source host to the
-        first packet switch? Keeping in mind that each switch uses store-and-forward packet
-        switching, what is the total time to move the message from source host to destination
-        host?
-     b) Now suppose that the message is segmented into 800 packets, with each packet being
-        10,000 bits long. How long does it take to move the first packet from source host to the
-        first switch? When the first packet is being sent from the first switch to the second switch,
-        the second packet is being sent from the source host to the first switch. At what time will
-        the second packet be fully received at the first switch?
-     c) How long does it take to move the file from source host to destination host when
-        message segmentation is used? Compare this result with your answer in part (a) and
-        comment
+4) In modern packet-switched networks, including the Internet, the source host segments long, application-layer messages (for example, an image or a music file) into smaller packets and sends the packets into the network. The receiver then reassembles the packets back into the original message. We refer to this process as message segmentation. Consider a message that is bits 10⁶ long that is to be sent from source to destination. Suppose there are 3 links, and each is 2 Mbps. Ignore propagation, queuing, and processing delays.
+     a) Consider sending the message from source to destination without message segmentation. How long does it take to move the message from the source host to the first packet switch? Keeping in mind that each switch uses store-and-forward packet switching, what is the total time to move the message from source host to destination host?
+     b) Now suppose that the message is segmented into 800 packets, with each packet being 10,000 bits long. How long does it take to move the first packet from source host to the first switch? When the first packet is being sent from the first switch to the second switch, the second packet is being sent from the source host to the first switch. At what time will the second packet be fully received at the first switch?
+     c) How long does it take to move the file from source host to destination host when message segmentation is used? Compare this result with your answer in part (a) and comment
      d) In addition to reducing delay, what are reasons to use message segmentation?
      e) Discuss the drawbacks of message segmentation.
 
