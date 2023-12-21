@@ -8,7 +8,7 @@ def client_thread():
     while (1):
         time.sleep(random.randint(1, 10))
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as client_socket:
-            client_socket.connect(("127.0.01", 12345))
+            client_socket.connect(("127.0.0.1", 12345))
             client_socket.sendall(b'1')
 
             msg = client_socket.recv(4)
