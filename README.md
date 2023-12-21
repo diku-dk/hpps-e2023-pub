@@ -186,8 +186,7 @@ of the first five assignment.
 
 ### Date
 
-The exam will be held in the exam week (the exact dates are determined
-by the exam office).
+The exam will be held in week 3, Monday 9:00 to Wednesday 12:00.
 
 ## Course plan
 
